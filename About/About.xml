@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Run and Gun: Shoot While Fleeing</name>
+  <author>ertzfiend</author>
+  <packageId>ertzfiend.runandgunshootwhilefleeing</packageId>
+  <description>Addon for Run and Gun (MemeGoddess.RunAndGun). Enables pawns to shoot while fleeing, whether from panic mental breaks or tactical flee jobs. Automatically patches Run and Gun's auto-attack logic, warmup bypass, and stance busy checks for fleeing pawns.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>MemeGoddess.RunAndGun</packageId>
+      <displayName>RunAndGun</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3562365100</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>MemeGoddess.RunAndGun</li>
+  </loadAfter>
+</ModMetaData>
